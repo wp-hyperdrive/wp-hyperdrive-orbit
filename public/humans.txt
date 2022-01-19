@@ -21,7 +21,8 @@ This website was hand-crafted by High Five!
     Git - https://git-scm.com/
     Webpack - https://www.webpack.js.org
     Vite - https://vitejs.dev/
-    Vue.js - https://vuejs.org/
+    Vue.js - https://vuejs.org
+    Bulma - https://bulma.io/
     Visual Studio Code - https://code.visualstudio.com/
 
 ヘ( ^o^)ノ＼(^_^ )
