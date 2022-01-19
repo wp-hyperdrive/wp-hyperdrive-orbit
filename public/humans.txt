@@ -1,11 +1,11 @@
-This website was hand-crafted by Studio HighFive!
+This website was hand-crafted by High Five!
 
-# STUDIO HIGHFIVE! TEAM
+# HIGH FIVE TEAM
 
     Harm Putman -- design & web development
     @harmputman
-    info [at] studio-highfive.nl
-    www.studio-highfive.nl
+    info [at] high-five.dev
+    www.high-five.dev
 
 # MADE WITH
 
@@ -19,7 +19,9 @@ This website was hand-crafted by Studio HighFive!
 # SOFTWARE
 
     Git - https://git-scm.com/
-    Gulp.js - https://gulpjs.com/
+    Webpack - https://www.webpack.js.org
+    Vite - https://vitejs.dev/
+    Vue.js - https://vuejs.org/
     Visual Studio Code - https://code.visualstudio.com/
 
 ヘ( ^o^)ノ＼(^_^ )
