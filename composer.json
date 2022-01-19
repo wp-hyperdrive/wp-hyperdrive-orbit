@@ -1,0 +1,71 @@
+{
+    "name": "high-five/hyperdrive-orbit",
+    "description": "High Five's Composer based WordPress setup.",
+    "authors": [
+        {
+            "name": "High Five",
+            "email": "hello@high-five.dev",
+            "homepage": "https://www.high-five.dev"
+        },
+        {
+            "name": "Harm Putman",
+            "email": "harm@high-five.dev",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@high-five.dev"
+    },
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "composer",
+            "url": "https://wp-languages.github.io"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:wp-hyperdrive/wp-hyperdrive-base.git"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress-core-installer": "^2.0",
+        "johnpbloch/wordpress-core": "5.8.*@stable",
+        "koodimonni-language/core-nl_nl": "*",
+        "high-five/wp-hyperdrive-base": "dev-main"
+    },
+    "extra": {
+        "wordpress-install-dir": "public/cms",
+        "wordpress-content-dir": "public/app",
+        "installer-paths": {
+            "public/app/plugins/{$name}/": ["type:wordpress-plugin"],
+            "public/app/mu-plugins/{$name}": ["type:wordpress-muplugin"],
+            "public/app/themes/{$name}": ["type:wordpress-theme"]
+        },
+        "dropin-paths": {
+            "public/app/languages/": ["vendor:koodimonni-language"],
+            "public/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+            "public/app/languages/themes/": ["vendor:koodimonni-theme-language"]
+        }
+    },
+    "config": {
+        "vendor-dir": "public/app/vendor",
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true,
+            "koodimonni/composer-dropin-installer": true,
+            "composer/installers": true
+        }
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "@php -r \"file_exists('logs') || mkdir('logs');\"",
+            "@php -r \"file_exists('config.php') || copy('config-sample.php', 'config.php');\""
+        ]
+    }
+}

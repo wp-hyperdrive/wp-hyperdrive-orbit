@@ -1,0 +1,25 @@
+This website was hand-crafted by Studio HighFive!
+
+# STUDIO HIGHFIVE! TEAM
+
+    Harm Putman -- design & web development
+    @harmputman
+    info [at] studio-highfive.nl
+    www.studio-highfive.nl
+
+# MADE WITH
+
+    HTML5
+    CSS3
+    Sass - https://sass-lang.com/
+    Javascript
+    PHP
+    WordPress - https://wordpress.org/
+
+# SOFTWARE
+
+    Git - https://git-scm.com/
+    Gulp.js - https://gulpjs.com/
+    Visual Studio Code - https://code.visualstudio.com/
+
+ヘ( ^o^)ノ＼(^_^ )
