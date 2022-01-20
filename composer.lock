@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bac57b09aba71aeffd587fa338b9e08",
+    "content-hash": "9522e0b51141a49a378dc55947b43435",
     "packages": [
         {
             "name": "composer/installers",
@@ -163,20 +163,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-hyperdrive/wp-hyperdrive-base.git",
-                "reference": "61ab4db971adff7811a329e14d4818de90b3b488"
+                "reference": "98649f617756307ebaa8f544d8e0ff656707df7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-base/zipball/61ab4db971adff7811a329e14d4818de90b3b488",
-                "reference": "61ab4db971adff7811a329e14d4818de90b3b488",
+                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-base/zipball/98649f617756307ebaa8f544d8e0ff656707df7f",
+                "reference": "98649f617756307ebaa8f544d8e0ff656707df7f",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0",
+                "high-five/wp-hyperdrive-core": "dev-main",
                 "php": ">=7.4"
             },
             "default-branch": true,
             "type": "wordpress-theme",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -195,10 +197,53 @@
             "description": "High Five's WordPress starter theme for light-speed theme development.",
             "support": {
                 "email": "support@high-five.dev",
-                "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/tree/main",
-                "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/issues"
+                "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/issues",
+                "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/tree/main"
             },
-            "time": "2022-01-19T22:40:11+00:00"
+            "time": "2022-01-20T18:52:31+00:00"
+        },
+        {
+            "name": "high-five/wp-hyperdrive-core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-hyperdrive/wp-hyperdrive-core.git",
+                "reference": "db3fc79a5047fd5ddff6e8f286fdb2333c6dbb43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-core/zipball/db3fc79a5047fd5ddff6e8f286fdb2333c6dbb43",
+                "reference": "db3fc79a5047fd5ddff6e8f286fdb2333c6dbb43",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "High Five",
+                    "email": "hello@high-five.dev",
+                    "homepage": "https://www.high-five.dev"
+                },
+                {
+                    "name": "Harm Putman",
+                    "email": "harm@high-five.dev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "High Five's WordPress starter theme core module.",
+            "support": {
+                "email": "support@high-five.dev",
+                "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-core/issues",
+                "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-core/tree/main"
+            },
+            "time": "2022-01-20T18:50:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
