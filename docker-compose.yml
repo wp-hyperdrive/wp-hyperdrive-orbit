@@ -2,22 +2,22 @@ version: '3.7'
 services:
 
     db:
-        container_name: hyperdrive-base-nl-db
+        container_name: wp-hyperdrive-nl-db
         image: mysql:5.7
         command: --default-authentication-plugin=mysql_native_password
         restart: always
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: hyperdrive-base-nl
+            MYSQL_DATABASE: wp-hyperdrive-nl
             MYSQL_USER: highfive
             MYSQL_PASSWORD: highfive
         volumes:
             - database:/var/lib/mysql
         ports:
-            - 3308:3306
+            - 3309:3306
 
     web:
-        container_name: hyperdrive-base-nl-web
+        container_name: wp-hyperdrive-nl-web
         build: ./.docker
         links:
             - db:db
@@ -29,7 +29,7 @@ services:
         user: ${CURRENT_UID}
         environment:
             - VIRTUAL_PORT=80
-            - VIRTUAL_HOST=hyperdrive-base-nl.test
+            - VIRTUAL_HOST=wp-hyperdrive-nl.test
 volumes:
     database:
 networks:
