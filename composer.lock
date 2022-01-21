@@ -163,12 +163,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-hyperdrive/wp-hyperdrive-admin-pages.git",
-                "reference": "3c8c8f89df4326a7dc246b1858a44f19b38b5538"
+                "reference": "ddce9d39b16d3a958ae79f6534a28a3206912ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-admin-pages/zipball/3c8c8f89df4326a7dc246b1858a44f19b38b5538",
-                "reference": "3c8c8f89df4326a7dc246b1858a44f19b38b5538",
+                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-admin-pages/zipball/ddce9d39b16d3a958ae79f6534a28a3206912ecf",
+                "reference": "ddce9d39b16d3a958ae79f6534a28a3206912ecf",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-admin-pages/issues",
                 "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-admin-pages/tree/main"
             },
-            "time": "2022-01-20T20:22:35+00:00"
+            "time": "2022-01-21T09:36:27+00:00"
         },
         {
             "name": "high-five/wp-hyperdrive-base",
@@ -211,12 +211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-hyperdrive/wp-hyperdrive-base.git",
-                "reference": "97bbf9cfafd23f9fdf83ca001bfcd20826c7acc0"
+                "reference": "c08c849fbe8df04ceb32933c4cd64f5a07b27f13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-base/zipball/97bbf9cfafd23f9fdf83ca001bfcd20826c7acc0",
-                "reference": "97bbf9cfafd23f9fdf83ca001bfcd20826c7acc0",
+                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-base/zipball/c08c849fbe8df04ceb32933c4cd64f5a07b27f13",
+                "reference": "c08c849fbe8df04ceb32933c4cd64f5a07b27f13",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/issues",
                 "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-base/tree/main"
             },
-            "time": "2022-01-20T20:21:30+00:00"
+            "time": "2022-01-21T09:35:24+00:00"
         },
         {
             "name": "high-five/wp-hyperdrive-core",
@@ -257,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-hyperdrive/wp-hyperdrive-core.git",
-                "reference": "1286ecf98c924cc265cc73b3f0ac608b77a5df02"
+                "reference": "c4d8eb1ab5bdcb3bda0557882a6763ca85d86f54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-core/zipball/1286ecf98c924cc265cc73b3f0ac608b77a5df02",
-                "reference": "1286ecf98c924cc265cc73b3f0ac608b77a5df02",
+                "url": "https://api.github.com/repos/wp-hyperdrive/wp-hyperdrive-core/zipball/c4d8eb1ab5bdcb3bda0557882a6763ca85d86f54",
+                "reference": "c4d8eb1ab5bdcb3bda0557882a6763ca85d86f54",
                 "shasum": ""
             },
             "require": {
@@ -297,7 +297,7 @@
                 "issues": "https://github.com/wp-hyperdrive/wp-hyperdrive-core/issues",
                 "source": "https://github.com/wp-hyperdrive/wp-hyperdrive-core/tree/main"
             },
-            "time": "2022-01-20T19:23:34+00:00"
+            "time": "2022-01-21T09:36:01+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -480,5 +480,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.1.0"
 }

@@ -25,13 +25,14 @@ define('WP_HOME', 'http://example-com.test');
 define('WP_SITEURL', WP_HOME . '/cms');
 define('WP_CONTENT_URL', WP_HOME . '/app');
 define('WP_PLUGIN_URL', WP_HOME . '/app/plugins');
-define('WP_CONTENT_DIR', dirname(__FILE__, 2) . '/app');
-define('WP_PLUGIN_DIR', dirname(__FILE__) . '/public/app/plugins');
+define('WP_CONTENT_DIR', __DIR__ . '/public/app');
+define('WP_PLUGIN_DIR', __DIR__ . '/public/app/plugins');
 define('PLUGINDIR', WP_PLUGIN_DIR);
 
+define('WP_USE_THEMES', true);
 define('WP_ENVIRONMENT_TYPE', 'local'); // local, development, staging, production
 define('WP_DEBUG', true);
-define('WP_DEBUG_LOG', dirname(__FILE__) . sprintf('/logs/%s-debug.log', date('Y-m')));
+define('WP_DEBUG_LOG', __DIR__ . sprintf('/logs/%s-debug.log', date('Y-m')));
 define('WP_DEBUG_DISPLAY', false);
 define('WP_POST_REVISIONS', 3);
 
@@ -44,7 +45,7 @@ define('WP_MAX_MEMORY_LIMIT', '256M');
 
 /** Absolute path to the WordPress directory. */
 if (!defined('ABSPATH')) {
-    define('ABSPATH', dirname(__FILE__) . '/');
+    define('ABSPATH', __DIR__ . '/');
 }
 
 /** Sets up WordPress vars and included files. */
